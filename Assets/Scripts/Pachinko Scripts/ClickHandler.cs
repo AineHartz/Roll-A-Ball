@@ -24,10 +24,10 @@ public class ClickHandler : MonoBehaviour
             if(Physics.Raycast(ray, out hit, Mathf.Infinity, clickable))
             {
                 //On a legal click, get the part of the clickable object that implements clicks and call it's onClick method, passing where the click was to it.
-                Clickable clickable = hit.collider.GetComponent<Clickable>();
-                if(clickable != null)
+                Clickable clicked = hit.collider.GetComponent<Clickable>();
+                if(clicked != null)
                 {
-                    clickable.onClick(hit.point);
+                    clicked.onClick(hit.point);
                 }
             }
 

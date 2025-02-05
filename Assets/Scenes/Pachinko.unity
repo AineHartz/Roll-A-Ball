@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 475638973}
   - component: {fileID: 475638975}
   - component: {fileID: 475638974}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: SpawnSpace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickable:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
 --- !u!4 &895683166
 Transform:
   m_ObjectHideFlags: 0
