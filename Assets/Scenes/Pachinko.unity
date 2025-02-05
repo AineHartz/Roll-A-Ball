@@ -251,9 +251,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider
+      value: Left50ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -491,9 +495,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (4)
+      value: RIghtDudSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -610,9 +618,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (2)
+      value: Left200ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1417,9 +1429,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (3)
+      value: LeftDudSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1541,9 +1557,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (1)
+      value: Left100ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2166,9 +2186,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (7)
+      value: Right100ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2228,9 +2252,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (9)
+      value: Right20ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2858,9 +2886,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (5)
+      value: JackpotSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2920,9 +2952,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (6)
+      value: Right200ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3244,7 +3280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8165442997051045240, guid: 4e3f4b4f909580f499457a7b1c57ffa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 5.304
       objectReference: {fileID: 0}
     - target: {fileID: 8165442997051045240, guid: 4e3f4b4f909580f499457a7b1c57ffa3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3404,9 +3440,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: BottomSlotCollider (8)
+      value: Right50ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3642,9 +3682,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2089157706}
     m_Modifications:
+    - target: {fileID: -3393291646446252453, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
-      value: Collider
+      value: Left20ptSlot
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
