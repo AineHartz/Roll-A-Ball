@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class ClickHandler : MonoBehaviour
 {
-    //Says which ball to spawn
-    public GameObject ballPrefab;
-
     //Every clickable area will be set to the clickable layer, to make sure the click collider doesn't mess with the game in any way.
     public LayerMask clickable;
 
@@ -26,8 +23,12 @@ public class ClickHandler : MonoBehaviour
              */
             if(Physics.Raycast(ray, out hit, Mathf.Infinity, clickable))
             {
-                //Spawns the right type of ball at the point where you clicked, with no rotation. 
-                Instantiate(ballPrefab, hit.point, Quaternion.identity);
+                //On a legal click, get the part of the clickable object that implements clicks and call it's onClick method, passing where the click was to it.
+                Clickable clickable = hit.collider.GetComponent<Clickable>();
+                if(clickable != null)
+                {
+                    clickable.onClick(hit.point);
+                }
             }
 
 

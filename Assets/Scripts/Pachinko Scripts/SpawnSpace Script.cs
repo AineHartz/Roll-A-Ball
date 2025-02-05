@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class SpawnSpaceScript : MonoBehaviour
+public class SpawnSpaceScript : MonoBehaviour, Clickable
 {
-    private void OnTriggerEnter(Collider other)
+    //Says which ball to spawn
+    public GameObject ballPrefab;
+
+    public void onClick(Vector3 hitPoint)
     {
-        if(!other.CompareTag("Ball"))
-        {
-            Debug.Log("Clicking here works!");
-        }
+        Instantiate(ballPrefab, hitPoint, Quaternion.identity);
     }
 }
