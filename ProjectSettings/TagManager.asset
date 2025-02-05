@@ -6,11 +6,12 @@ TagManager:
   tags:
   - PickUp
   - Enemy
+  - Ball
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Clickable
   - Water
   - UI
   - 
