@@ -11,7 +11,7 @@ public class MiddleSlotScript : MonoBehaviour
         if(other.CompareTag("Ball"))
         {
             PointHandler.Instance.addMiddlePoints(basePoints);
-            Destroy(other.gameObject);
+            BallHandler.Instance.destroyBall(other.gameObject);
         }
     }
 }
