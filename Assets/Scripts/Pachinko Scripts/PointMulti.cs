@@ -7,6 +7,8 @@ public class PointMulti : MonoBehaviour, Clickable
     private double cost;
     PointHandler points;
 
+    //This class just reaches out to the PointHandler, calls it's multiplier method, and increases the cost of the upgrade. 
+
     void Start()
     {
         text = GetComponentInChildren<TMP_Text>();

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8425657902114020342}
   - component: {fileID: 4466195267417744602}
-  - component: {fileID: -3393291646446252453}
+  - component: {fileID: 6981967518689724025}
   m_Layer: 0
   m_Name: BottomSlotCollider
   m_TagString: Untagged
@@ -54,7 +54,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-3393291646446252453
+--- !u!114 &6981967518689724025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,6 +63,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3081357636463273438}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13e845a0efc06214bbc3574188b5db0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 31e95d57662809b449e8830ede899a3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basePoints: 250

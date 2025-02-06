@@ -8,6 +8,7 @@ public class PointHandler : MonoBehaviour
 
     public double totalPoints = 0;
     public double pointMulti = 1;
+    public double middleMulti = 1;
 
     //Forces singleton. If another copy exists, destroy it first. 
     private void Awake()
@@ -26,6 +27,12 @@ public class PointHandler : MonoBehaviour
     public void addPoints(double basePoints)
     {
         double finalPoints = basePoints * pointMulti;
+        totalPoints += finalPoints;
+    }
+
+    public void addMiddlePoints(double basePoints)
+    {
+        double finalPoints = basePoints * pointMulti * middleMulti;
         totalPoints += finalPoints;
     }
 
@@ -64,6 +71,11 @@ public class PointHandler : MonoBehaviour
         pointMulti = pointMulti * 5;
     }
 
+    public void middleMultiplier()
+    {
+        middleMulti = middleMulti * 2;
+    }
+
     public string multiplierToString()
     {
         return formatNumber(pointMulti);
@@ -72,5 +84,15 @@ public class PointHandler : MonoBehaviour
     public string nextMultiToString()
     {
         return formatNumber(pointMulti * 5);
+    }
+
+    public string middleMultiplierToString()
+    {
+        return formatNumber(middleMulti);
+    }
+
+    public string middleNextMultiToString()
+    {
+        return formatNumber(middleMulti* 2);
     }
 }
