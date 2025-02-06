@@ -69,4 +69,14 @@ public class BallHandler : MonoBehaviour
     {
         maxBalls++;
     }
+
+    public string getMaxToString()
+    {
+        return ("" + maxBalls);
+    }
+
+    public string getNextMaxToString()
+    {
+        return ("" + (maxBalls + 1));
+    }
 }
