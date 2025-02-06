@@ -22,14 +22,13 @@ public class PointHandler : MonoBehaviour
         }
     }
 
-    public void AddPoints(int basePoints)
+    public void addPoints(int basePoints)
     {
         totalPoints += basePoints;
-        Debug.Log("Total points: " + FormatPoints(totalPoints));
     }
 
     //Mixed scientific notation. If the number is over 1e4, make it scientific notation. 
-    public string FormatPoints(double points)
+    public string formatPoints(double points)
     {
         if(points >= 10000)
         {
@@ -40,5 +39,10 @@ public class PointHandler : MonoBehaviour
         {
             return points.ToString();
         }
+    }
+
+    public string getPoints()
+    {
+        return "Points: " + formatPoints(totalPoints);
     }
 }

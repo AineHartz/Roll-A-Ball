@@ -9,7 +9,7 @@ public class SlotScript : MonoBehaviour
     {
         if(other.CompareTag("Ball"))
         {
-            PointHandler.Instance.AddPoints(basePoints);
+            PointHandler.Instance.addPoints(basePoints);
             Destroy(other.gameObject);
         }
     }
