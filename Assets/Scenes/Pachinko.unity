@@ -293,6 +293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left50ptSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.995
@@ -620,6 +624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RIghtDudSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.36
@@ -853,6 +861,10 @@ PrefabInstance:
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
       value: Left200ptSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1703,6 +1715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftDudSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.624
@@ -1966,6 +1982,10 @@ PrefabInstance:
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
       value: Left100ptSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2844,6 +2864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right100ptSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.16
@@ -3020,6 +3044,10 @@ PrefabInstance:
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
       value: Right20ptSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4138,6 +4166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right200ptSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.246
@@ -4804,6 +4836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right50ptSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.036
@@ -5045,6 +5081,10 @@ PrefabInstance:
     - target: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_Name
       value: Left20ptSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: basePoints
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
