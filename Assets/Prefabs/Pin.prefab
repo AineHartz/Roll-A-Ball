@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6318411125454048260}
   - component: {fileID: 7055588412538047012}
   - component: {fileID: 6430833550991277701}
-  - component: {fileID: 6540897408247492255}
   m_Layer: 0
   m_Name: Pin
   m_TagString: Untagged
@@ -31,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 3.64, z: -4.948}
   m_LocalScale: {x: 0.29996, y: 0.40636313, z: 0.23570256}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1598378786240494744}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!33 &7055588412538047012
@@ -87,13 +87,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &6540897408247492255
-CapsuleCollider:
+--- !u!1 &8528106169528415666
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876812872567292604}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598378786240494744}
+  - component: {fileID: 5386292176937295409}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1598378786240494744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528106169528415666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6318411125454048260}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!65 &5386292176937295409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528106169528415666}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -105,8 +137,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.42604864
-  m_Height: 2.03351
-  m_Direction: 1
-  m_Center: {x: -0.019952137, y: -0.016755352, z: 0.012438083}
+  serializedVersion: 3
+  m_Size: {x: 0.70802575, y: 1.9945693, z: 0.6693513}
+  m_Center: {x: -0.02585227, y: 0.010214237, z: -0.0026284056}
