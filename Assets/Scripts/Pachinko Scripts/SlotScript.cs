@@ -9,7 +9,7 @@ public class SlotScript : MonoBehaviour
     {
         if(other.CompareTag("Ball"))
         {
-            Debug.Log("Detected ball! Points for this slot: " + basePoints);
+            PointHandler.Instance.AddPoints(basePoints);
             Destroy(other.gameObject);
         }
     }
