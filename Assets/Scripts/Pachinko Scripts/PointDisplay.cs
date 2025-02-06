@@ -12,6 +12,6 @@ public class PointDisplay : MonoBehaviour
 
     void Update()
     {
-        text.text = PointHandler.Instance.getPoints();
+        text.text = PointHandler.Instance.getPointsToString();
     }
 }

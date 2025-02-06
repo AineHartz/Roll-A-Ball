@@ -3,7 +3,7 @@ using UnityEngine;
 public class SlotScript : MonoBehaviour
 {
     //Set in inspector. This is the base point value for each slot, before any multipliers are applied. 
-    public int basePoints;
+    public double basePoints;
 
     private void OnTriggerEnter(Collider other)
     {

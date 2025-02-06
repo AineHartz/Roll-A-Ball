@@ -7,6 +7,7 @@ public class PointHandler : MonoBehaviour
     public static PointHandler Instance { get; private set; }
 
     public double totalPoints = 0;
+    public double pointMulti = 1;
 
     //Forces singleton. If another copy exists, destroy it first. 
     private void Awake()
@@ -22,27 +23,54 @@ public class PointHandler : MonoBehaviour
         }
     }
 
-    public void addPoints(int basePoints)
+    public void addPoints(double basePoints)
     {
-        totalPoints += basePoints;
+        double finalPoints = basePoints * pointMulti;
+        totalPoints += finalPoints;
+    }
+
+    //A method for buying an upgrade, which subtracts the cost from total points.
+    public void buy(double cost)
+    {
+        totalPoints -= cost;
     }
 
     //Mixed scientific notation. If the number is over 1e4, make it scientific notation. 
-    public string formatPoints(double points)
+    public string formatNumber(double number)
     {
-        if(points >= 10000)
+        if(number >= 10000)
         {
-            return points.ToString("0.00e0");
+            return number.ToString("0.00e0");
         }
 
         else
         {
-            return points.ToString();
+            return number.ToString();
         }
     }
 
-    public string getPoints()
+    public double getPoints()
     {
-        return "Points: " + formatPoints(totalPoints);
+        return totalPoints;
+    }
+
+    public string getPointsToString()
+    {
+        return "Points: " + formatNumber(totalPoints);
+    }
+
+    public void multiplier()
+    {
+        pointMulti = pointMulti * 5;
+    }
+
+    public string multiplierToString()
+    {
+        return formatNumber(pointMulti);
+    }
+
+    public string nextMultiToString()
+    {
+        return formatNumber(pointMulti * 5);
     }
 }
