@@ -49,7 +49,7 @@ public class BallHandler : MonoBehaviour
              */
 
             Rigidbody rb = newBall.GetComponent<Rigidbody>();
-            float randomX = Random.Range(-3f, 3f);
+            float randomX = Random.Range(-4f, 4f);
 
             //The normalization makes sure that the downward force applied is consistent. 
             Vector3 forceVector = new Vector3(randomX, -1f, 0f).normalized * downwardForce;
