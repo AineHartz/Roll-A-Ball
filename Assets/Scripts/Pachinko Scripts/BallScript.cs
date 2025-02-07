@@ -19,7 +19,7 @@ public class BallScript : MonoBehaviour
         if (rb.linearVelocity.magnitude < 0.1f)
         {
             timer += Time.deltaTime;
-            if (timer >= 1.5f)
+            if (timer >= 0.5f)
             {
                 Vector3 nudgeDirection = new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f)).normalized;
                 rb.AddForce(nudgeDirection * 2f, ForceMode.Impulse);
