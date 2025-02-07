@@ -87,12 +87,14 @@ public class BallHandler : MonoBehaviour
 
     public string getSpeedToString()
     {
-        return ("0.00" + autodropSpeed);
+        {
+            return (autodropSpeed).ToString("0.000");
+        }
     }
 
     public string getNextSpeedToString()
     {
-        return ("0.00" + (autodropSpeed * 0.9));
+            return (autodropSpeed * 0.9).ToString("0.000");
     }
 
     //It's a toggle, so this method just inverses the autodrop boolean. 

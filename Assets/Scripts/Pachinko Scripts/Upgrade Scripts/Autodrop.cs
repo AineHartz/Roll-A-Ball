@@ -20,8 +20,17 @@ public class Autodrop : MonoBehaviour, Clickable
     void display()
     {
         string currentSpeed = balls.getSpeedToString();
-        string nextSpeed = balls.getNextMaxToString();
-        text.text = "Autodrop: \n" + currentSpeed + " -> " + nextSpeed + "\nCost: " + points.formatNumber(cost);
+        string nextSpeed = balls.getNextSpeedToString();
+
+        if (balls.autodrop == false)
+        {
+            text.text = "Autodrop \n" + "Cost: " + points.formatNumber(cost);
+        }
+
+        else
+        {
+            text.text = "Autodrop Delay: \n" + currentSpeed + "s -> " + nextSpeed + "s\nCost: " + points.formatNumber(cost);
+        }
     }
 
     public void onClick(Vector3 hitPoint)
