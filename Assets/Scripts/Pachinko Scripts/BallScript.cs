@@ -4,10 +4,12 @@ public class BallScript : MonoBehaviour
 {
     private Rigidbody rb;
     private float timer = 0f;
+    private AudioSource audio;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,6 +32,16 @@ public class BallScript : MonoBehaviour
         else
         {
             timer = 0f;
+        }
+    }
+
+    
+    //plays a cute plink sound when hitting a pin!
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Pin"))
+        {
+            audio.Play();
         }
     }
 }
