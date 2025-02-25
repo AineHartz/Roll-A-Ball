@@ -39,7 +39,7 @@ public class BallScript : MonoBehaviour
     //plays a cute plink sound when hitting a pin!
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("Pin"))
+        if (collision.gameObject.CompareTag("Pin"))
         {
             audio.Play();
         }

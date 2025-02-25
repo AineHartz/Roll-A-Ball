@@ -9,6 +9,7 @@ TagManager:
   - Ball
   - Jackpot
   - Pin
+  - Slot
   layers:
   - Default
   - TransparentFX

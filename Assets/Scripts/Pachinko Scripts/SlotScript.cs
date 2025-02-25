@@ -11,6 +11,7 @@ public class SlotScript : MonoBehaviour
         {
             PointHandler.Instance.addPoints(basePoints);
             BallHandler.Instance.destroyBall(other.gameObject);
+            GetComponent<AudioSource>().Play();
         }
     }
 }

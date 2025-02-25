@@ -3,6 +3,7 @@ using UnityEngine;
 public class MiddleSlotScript : MonoBehaviour
 {
     //The middle slot specifically calls a slightly different method from PointHandler, as the middle slot has special modifiers applied. 
+    //also plays a special sound!
     
     public double basePoints;
 
@@ -12,6 +13,7 @@ public class MiddleSlotScript : MonoBehaviour
         {
             PointHandler.Instance.addMiddlePoints(basePoints);
             BallHandler.Instance.destroyBall(other.gameObject);
+            GetComponent<AudioSource>().Play();
         }
     }
 }

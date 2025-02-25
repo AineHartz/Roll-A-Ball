@@ -293,7 +293,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left50ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 50
       objectReference: {fileID: 0}
@@ -626,7 +626,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: RIghtDudSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 1
       objectReference: {fileID: 0}
@@ -679,6 +679,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
   m_PrefabInstance: {fileID: 256200133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &288677922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+  m_PrefabInstance: {fileID: 1638573484}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &305232387
 GameObject:
@@ -864,7 +869,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left200ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 200
       objectReference: {fileID: 0}
@@ -1828,7 +1833,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftDudSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 1
       objectReference: {fileID: 0}
@@ -2096,7 +2101,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left100ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 100
       objectReference: {fileID: 0}
@@ -3242,7 +3247,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right100ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 100
       objectReference: {fileID: 0}
@@ -3423,7 +3428,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right20ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 20
       objectReference: {fileID: 0}
@@ -4402,6 +4407,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Jackpot
       objectReference: {fileID: 0}
+    - target: {fileID: 7451924153603709533, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: m_Volume
+      value: 0.793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7451924153603709533, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 115c0e03eb9fe974bae397aa6e114627, type: 3}
+    - target: {fileID: 7451924153603709533, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 115c0e03eb9fe974bae397aa6e114627, type: 3}
     - target: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.487
@@ -4442,16 +4459,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3081357636463273438, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1638573486}
   m_SourcePrefab: {fileID: 100100000, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
 --- !u!4 &1638573485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8425657902114020342, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
   m_PrefabInstance: {fileID: 1638573484}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1638573486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288677922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e95d57662809b449e8830ede899a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePoints: 250
 --- !u!1 &1668950985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,7 +4581,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right200ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 200
       objectReference: {fileID: 0}
@@ -5464,7 +5498,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right50ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 50
       objectReference: {fileID: 0}
@@ -5710,7 +5744,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left20ptSlot
       objectReference: {fileID: 0}
-    - target: {fileID: 6981967518689724025, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
+    - target: {fileID: 4091414526366270554, guid: 4460f738665d1a34cb25798653bc2bf5, type: 3}
       propertyPath: basePoints
       value: 20
       objectReference: {fileID: 0}
