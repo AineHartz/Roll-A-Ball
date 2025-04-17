@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 //Another singleton class, since I wanted to keep track of spawned balls. Copied some code from PointHandler.
@@ -12,8 +13,14 @@ public class BallHandler : MonoBehaviour
 
     public int maxBalls;
     public int currentBalls;
-    public Boolean autodrop;
+
+    //below is autodrop variables
+    public bool autodrop;
     public float autodropSpeed;
+    public Vector3 dropPoint;
+    private Coroutine autodropCoroutine;
+    public GameObject markerPrefab;
+    public GameObject currentMarker;
 
     public static BallHandler Instance { get; private set; }
 
@@ -62,6 +69,48 @@ public class BallHandler : MonoBehaviour
             // VelocityChange makes the added force apply immediately. 
             rb.AddForce(forceVector, ForceMode.VelocityChange);
         }
+    }
+    public void SetAutodropPoint(Vector3 newDropPoint)
+    {
+        //The intention here is that spam clicking can indeed still spawn balls faster than autodrop, so it doesn't matter
+        //that the autodrop wait is only respected within a given coroutine that can be cancelled via clicking.
+
+        dropPoint = newDropPoint;
+
+        if (currentMarker == null)
+        {
+            currentMarker = Instantiate(markerPrefab, dropPoint, Quaternion.identity);
+        }
+
+        else
+        {
+            currentMarker.transform.position = dropPoint;
+        }
+
+        if (autodropCoroutine != null)
+        {
+            StopCoroutine(autodropCoroutine);
+            autodropCoroutine = null;
+        }
+
+        if (autodrop)
+        {
+            autodropCoroutine = StartCoroutine(AutodropLoop());
+        }
+    }
+    private IEnumerator AutodropLoop()
+    {
+        while (autodrop)
+        {
+            if (currentBalls < maxBalls)
+            {
+                createBall(dropPoint);
+            }
+
+            yield return new WaitForSeconds(autodropSpeed);
+        }
+
+        autodropCoroutine = null;
     }
 
     public void destroyBall(GameObject ball)
